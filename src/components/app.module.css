@@ -1,0 +1,68 @@
+.app {
+	background: #f9f9f9;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+h4 {
+    color: red;
+    margin: 10px;
+}
+
+li {
+    list-style-type: none; 
+}
+
+p {
+    margin: 10px;
+}
+
+.item {
+    height: auto;
+    width: 40rem;
+    border: 1px solid rgb(170, 166, 166);
+    background-color: white;
+    text-align: center;
+    margin: 50px;
+    line-height: 26px;
+    align-items: center;
+    
+}
+
+.img {
+    width: 50px;
+    height: 70px;
+    margin: 10px;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+.pbtnshow {
+    
+    padding: 5px 10px;
+    background: rgb(216, 253, 141);
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(170, 166, 166);
+}
+
+.pbtnhide {
+    
+    background:rgb(29, 98, 9);
+    padding: 5px 10px;
+    text-align: center;
+    font-style: italic;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(170, 166, 166);
+    
+}
+
+
