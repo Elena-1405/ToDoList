@@ -5,10 +5,6 @@ import Main from './components/Main/main.js'
 import Footer from './components/Footer/footer.js'
 import mock from '../src/server-response-mock.js'
 
-// import Count from './components/Count-button.js'
-// import Product from './components/Product.js'
-// import {products} from './data/products.js'
-// import BlogPost from './components/Blogpost.js'
 
 function App() {
       const {activeUserId, users, todos} = mock
@@ -18,7 +14,6 @@ function App() {
       let filteredTodos = []
       if (isLogged){
         filteredTodos = todos.filter(item => item.userId === loggedUser.id)
-
       }
 
   return (
@@ -27,15 +22,9 @@ function App() {
     <Header isLogged={isLogged}/>
     <Main loggedUser={loggedUser} todos={filteredTodos}/>
     <Footer />
-    {/* <BlogPost /> */}
-    {/* <Count />
-    <Product product={ products[0] }/>
-    <Product product={ products[1] }/> */}
-    </div>
-   
+    </div> 
   );
   
-  //return React.createElement('h2', '{}', 'Hello, React!!')
 }
 
 export default App;
